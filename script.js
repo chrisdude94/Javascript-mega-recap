@@ -30,9 +30,25 @@ console.log(variabel1);
 
 variabel2--;
 
-console.log(variabel2)
+console.log(variabel2);
 
+// 1.6:  Del verdien på den andre variabelen med seg selv. Ikke bruk tall for å få til dette.....
+//hvilke operator kombinasjon kan man bruke for å få til dette? Konsoll log hva verdien er nå
 
+variabel2=variabel2/variabel2;
+
+console.log(variabel2);
+
+// 2: Lag en kode som konsoll logger noe tilfeldig (f.eks fra et array eller en random number generator)
+
+let x = Math.random();
+
+console.log(x);
+
+// 3: Lag en funksjon som konsoll logger en string
+
+let a = 2;
+console.log(a);
 
 
 
